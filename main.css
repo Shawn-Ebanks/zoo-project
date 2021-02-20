@@ -1,0 +1,93 @@
+
+body {
+  background-color: #91db0f;
+  width: auto;
+  height: auto;
+}
+
+header {
+  background-color: #eef205;
+  color: #fff;
+  padding:auto;
+  border:groove darkgoldenrod;
+
+}
+h1 {
+  
+  text-align: center;
+  color: darkgreen;
+  padding: 10px 0;
+  font-size: 70px;
+  margin: 20px;
+  border:groove darkgoldenrod;
+  border-radius: 40px;
+  
+}
+
+nav > ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+li a:link {
+  color: black;
+  border: solid;
+  text-decoration: none;
+  border-radius: 40px;
+  border-style: groove;
+  padding: 12px;
+  display: inline-block;
+  text-align: center;
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color:blue;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+article{
+  display: flex
+   
+}
+p {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 0px;
+  width: 600px;
+  color: rgb(1, 5, 5)
+}
+
+.animal {
+  float:right;
+  padding-bottom: 10px;
+ }
+
+ figcaption {
+  float:left;
+ }
+
+ h2 {
+  float: right;
+  padding: 0px;
+  padding-bottom: 4px;
+  width: 600px;
+  color: rgb(1, 5, 5)
+}
