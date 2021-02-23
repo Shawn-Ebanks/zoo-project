@@ -1,8 +1,12 @@
 let age = prompt('What is your age?');
 let message2;
 
-if (age < 12) {message2 = ' Entry for kids is free!';}
-else if (age > 12) {message2 = 'See our discount code at the bottom of this page';}
-else {message2}
+function discount(valid){
+    if (age <= 12) {
+        return 'Entry for kids is free!';}
+    else if (age >= 13) {
+        return('Your discount code is 8313, valid for 15 days.')
+}
 
-document.write('<p> You are going to have a great time   ' + message2 +'</p>');  
+}
+document.write('<footer>'+ discount(age) + '</footer>');  

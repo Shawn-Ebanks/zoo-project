@@ -1,8 +1,12 @@
-let mood = prompt('how are are you on a scale from 1-10?');
-let message;
+let mood = prompt('How are are you on a scale from 1-10? 1 being Fantastic and 10 being Horrible');
 
-if (mood < 5) {message = ' be Sweet!';}
-else if (mood > 5) {message = 'get better watch and see';}
-else {message}
+function vibe(feeling){
+if (mood <= 5) {
+return 'Glad you are awesome!';}
 
-document.write('<p> It is going to   ' + message +'</p>');                            
+else if (mood >= 6) {
+    return 'We can fix that';
+}
+}
+
+document.write('<p>' + vibe(mood) +'</p>');                            

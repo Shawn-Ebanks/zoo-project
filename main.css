@@ -16,9 +16,7 @@ h1 {
   
   text-align: center;
   color: darkgreen;
-  padding: 10px 0;
   font-size: 70px;
-  margin: 20px;
   border:groove darkgoldenrod;
   border-radius: 40px;
   
@@ -63,31 +61,22 @@ a:active {
   color: red;
 }
 article{
-  display: flex
+  display:inline-block
    
 }
 p {
-  float: left;
-  margin: 0px;
-  padding: 0px;
-  padding-bottom: 0px;
-  width: 600px;
   color: rgb(1, 5, 5)
 }
 
 .animal {
-  float:right;
-  padding-bottom: 10px;
+  display: inline-block; 
  }
 
- figcaption {
-  float:left;
- }
+
 
  h2 {
-  float: right;
-  padding: 0px;
-  padding-bottom: 4px;
-  width: 600px;
-  color: rgb(1, 5, 5)
+  margin: auto;
+  color: rgb(1, 5, 5);
+  text-align: center;
 }
+
