@@ -10,6 +10,11 @@ header {
   padding: auto;
   border: groove darkgoldenrod;
 }
+
+#banner {
+  max-width: 100%;
+}
+
 h1 {
   text-align: center;
   color: darkgreen;
@@ -74,5 +79,13 @@ h2 {
 }
 
 .giraffe {
-  max-width: 100px;
+  max-width: 300px;
+  border: yellow solid 25px;
+  border-radius: 30px;
+  padding-left: 10px;
+}
+.animal {
+  border: yellow solid 25px;
+  border-radius: 30px;
+  max-width: 500px;
 }
