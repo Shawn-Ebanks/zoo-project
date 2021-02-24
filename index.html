@@ -24,10 +24,12 @@
             <li><a href="https://justincepeda16.github.io/naturevalleyzoo/">Contact Us</a></li>
         </ul>
     </nav>
-    <script src="app.js"></script>
-    <script src="app2.js"></script>
-    <script src="app3.js"></script>
+    <main>
+        <h2 id='name-display'></h2>
+    </main>
 
+    <script src="questions.js"></script>
+    <script src="loop-ex.js"></script>
 
     <br>
     <!-- This is suppose to be the zoo banner-->
@@ -35,7 +37,13 @@
             style="max-width: 90%;"></figure>
     <!-- Section listing animal species-->
     <section>
-
+        <form id="email-form" onSubmit="checkAdress('email');">
+            Sign up for our newsletter!
+            Enter your Email here:
+            <input type="text" id="email">
+            <input type="submit" value="Submit">
+        </form>
+        <!-- <script src="formScript.js"></script> -->
 
         <H3> We have lots of animals to fanscinate you!</H3>
 
@@ -54,16 +62,16 @@
             <!-- shark information start -->
             <h2>The Shark Tank</h2>
             <br>
-        
-                <figure> <img class="animal"
-                        src="https://www.ripleyaquariums.com/canada/files/2017/04/Annual-Passes-1024x683.jpg"
-                        style="max-width: 30%;"></figure>
-                <figcaption> Don't miss feeding time</figcaption>
-                <p>Sharks are ancient animals. They've been on earth for at least 420 million years. Sharks, unlike most
-                    fish, don't have bones, but cartilage, which is a soft, sinewy substance. They have several rows of
-                    teeth and might have as many as 3,000 teeth in their mouths at one time.
-                </p>
-    
+
+            <figure> <img class="animal"
+                    src="https://www.ripleyaquariums.com/canada/files/2017/04/Annual-Passes-1024x683.jpg"
+                    style="max-width: 30%;"></figure>
+            <figcaption> Don't miss feeding time</figcaption>
+            <p>Sharks are ancient animals. They've been on earth for at least 420 million years. Sharks, unlike most
+                fish, don't have bones, but cartilage, which is a soft, sinewy substance. They have several rows of
+                teeth and might have as many as 3,000 teeth in their mouths at one time.
+            </p>
+
 
             <!-- shark information end -->
 

@@ -1,4 +1,3 @@
-
 body {
   background-color: #91db0f;
   width: auto;
@@ -8,18 +7,15 @@ body {
 header {
   background-color: #eef205;
   color: #fff;
-  padding:auto;
-  border:groove darkgoldenrod;
-
+  padding: auto;
+  border: groove darkgoldenrod;
 }
 h1 {
-  
   text-align: center;
   color: darkgreen;
   font-size: 70px;
-  border:groove darkgoldenrod;
+  border: groove darkgoldenrod;
   border-radius: 40px;
-  
 }
 
 nav > ul {
@@ -53,30 +49,30 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color:blue;
+  color: blue;
 }
 
 /* selected link */
 a:active {
   color: red;
 }
-article{
-  display:inline-block
-   
+article {
+  display: inline-block;
 }
 p {
-  color: rgb(1, 5, 5)
+  color: rgb(1, 5, 5);
 }
 
 .animal {
-  display: inline-block; 
- }
+  display: inline-block;
+}
 
-
-
- h2 {
+h2 {
   margin: auto;
   color: rgb(1, 5, 5);
   text-align: center;
 }
 
+.giraffe {
+  max-width: 100px;
+}
